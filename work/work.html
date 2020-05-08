@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ko" >
+<head>
+    <title>Huge Inc.</title>
+    <meta charset="utf-8">
+    
+    <!-- 사이트 메타 태그 -->
+    <meta name="description" content="Huge Inc Website">
+    <meta name="keywords" content="Design, Agency, Web, UI, UX">
+    <meta name="author" content="Kevin">
+
+    <!-- 뷰포트 세팅 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!--  css 링크 -->
+    <link rel="stylesheet" type="text/css" href="css/destyle.css"> <!-- 초기화 CSS-->
+    <link rel="stylesheet" type="text/css" href="css/common.css"> <!-- 공통 요소 CSS-->
+    <link rel="stylesheet" type="text/css" href="css/work.css"> <!-- Home 화면 CSS-->
+
+    <!-- 구글 Noto Sans KR 웹폰트 링크 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    <script>
+        
+        /* 변수 선언 */
+
+        var header_state = 0; /* 헤더 보이기 상태 */
+
+        function logoClick() { 
+            if (header_state == 0 ) { 
+                document.getElementById("home_header").style = "visibility:visible;";
+                header_state = 1; /* 헤더 visible 상태로 기억 */
+            } 
+            else {  
+                document.getElementById("home_header").style = "visibility:hidden;";
+                header_state = 0; /* 헤더 hidden 상태 기억 */
+                } 
+
+            }
+
+
+        function logoMouseOver() {
+            document.getElementById("logo_wrap").style="background-color:#ea178c; color:white;";
+            document.getElementById("hello_wrap").style = "background-color: yellow; border: 50px solid #f8f8f8;";
+            
+        }
+
+         function logoMouseOut() {
+            document.getElementById("logo_wrap").style = "background-color:white; color:#ea178c;";
+            document.getElementById("hello_wrap").style = "background-color: white; border: 0px solid #f8f8f8;";
+               
+         }
+
+    </script>
+</head>
+
+<body>
+
+<!-- home_logo 위치  -->
+
+<div id="logo" onclick="logoClick()">H</div>
+
+   <header id="home_header">
+       <nav class="gnb"> <!-- 메뉴 ul 시작 -->
+           <ul class="menu_wrap"> <!-- 메뉴 ul 시작 -->
+                <li>
+                    <a href="">Hello.</a>
+                    <p>Today at Huge.</p>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="#home_03" >Work.</a>
+                    <p>What we've made.</p>
+                    <div></div>
+                </li>
+                <li>
+                    <a>About.</a>
+                    <p>Who we are.</p>
+                    <div></div>
+                </li>
+                <li>
+                    <a>Careers.</a>
+                    <p>Join the team.</p>
+                    <div></div>
+                </li>
+                <li>
+                    <a>Contact.</a>
+                    <p>Get in touch.</p>
+                    <div></div>
+                </li>
+            
+           </ul> <!-- 메뉴 ul 끝 -->
+        
+       <div class="gnb_aside">  <!-- 헤더 안에 부가 정보 -->
+           <p>Explore our thought leadership at </p>
+           <a>MAGENTA<span>.</span></a> 
+        </div>
+    </nav> 
+   </header>
+
+ <main style="background-color: black;">
+
+<section class="hero_video">
+      <video autoplay muted loop poster="img/careers/HugeInc_Recruting.png" >
+         <source src="video/huge_work.mp4" type="video/mp4">
+         당신의 브라우저는 이 비디오 형식을 지원하지 않습니다!   
+      </video>
+ </section>  
+
+<div class="work_02" >Make something you love</div>
+
+<div class="work_03">
+
+   <ul class="work_03_ul">
+   <li>
+       <a>
+           <h4>Scott Sports.</h4>
+           <h5>>>></h5>
+        </a>
+    </li>
+
+   <li><a><h4>Android.</h4><h5>>>></h5></a></li>
+   <li><a><h4>AMC Theatres.</h4><h5>>>></h5></a></li>
+
+   <li><a><h4>Canada Goose.</h4><h5>>>></h5></a></li>
+   <li><a><h4>Google.</h4><h5>>>></h5></a></li>
+   <li><a><h4>Gucci.</h4><h5>>>></h5></a></li>
+
+   <li><a><h4>Hulu.</h4><h5>>>></h5></a></li>
+   <li><a><h4>Kohl's.</h4><h5>>>></h5></a></li>
+   <li><a><h4>LG.</h4><h5>>>></h5></a></li>
+
+   <li><a><h4>Lenovo.</h4><h5>>>></h5></a></li>
+   <li><a><h4>NBC Universal.</h4><h5>>>></h5></a></li>
+   <li><a><h4>Nike.</h4><h5>>>></h5></a></li>
+
+   <li><a><h4>Pfizer.</h4><h5>>>></h5></a></li>
+   <li><a><h4>Procter & Gamble.</h4><h5>>>></h5></a></li>
+   <li><a><h4>Randstad.</h4><h5>>>></h5></a></li> 
+
+   <li><a><h4>Telus.</h4><h5>>>></h5></a></li>
+   <li><a><h4>Zelle.</h4><h5>>>></h5></a></li>
+   <li></li>
+
+   </ul>
+
+</div>
+
+<div class="work_04">
+  
+   <div class="work_04_wrap">
+
+      <div class="work_04_left">
+         <hr>
+         <h4>Select clients.</h4>
+      </div>
+
+      <ul class="work_04_right">
+         <li ><img src="img/huge-logosAMEX.png" alt="American Express Logo"></li>
+         <li><img src="img/CHRYSLER.png"  alt="American Express Logo"> </li>
+         <li><img src="img/Huge_work_clientsArtboard-12.png"  alt="American Express Logo"></li>
+         <li><img src="img/ESTEE1.png"  alt="American Express Logo"> </li>
+
+         <li ><img src="img/Four_Seasons.png"  alt="American Express Logo"></li>
+         <li><img src="img/Eli_Lilly.png"  alt="American Express Logo"> </li>
+         <li><img src="img/Huge_work_clientsArtboard-24.png"  alt="American Express Logo"></li>
+         <li><img src="img/LVMH.png"  alt="American Express Logo"> </li>
+
+        
+         <li><img src="img/Mcdonalds.png"  alt="American Express Logo"> </li>
+         <li ><img src="img/Nestle.png"  alt="American Express Logo"></li>
+         <li ><img src="img/TD_Bank.png"  alt="American Express Logo"></li>
+         <li><img src="img/Reuters.png"  alt="American Express Logo"> </li>
+
+         <li><img src="img/Time_Warner.png"  alt="American Express Logo"> </li>
+            <li><img src="img/Huge_work_clientsArtboard-9.png"  alt="American Express Logo"></li>   
+         <li><img src="img/huge-logosUPS.png"  alt="American Express Logo"></li>
+         <li><img src="img/Huge_work_clientsArtboard-1.png"  alt="American Express Logo"> </li>
+
+      </ul>
+
+   </div>
+</div>
+
+
+<div class="work_05" >
+  
+   <div>
+
+   <div class="work_05_wrap">
+      <a class="work_05_left"></a>
+      <a class="work_05_right">
+         <h2>Don't Copy Star Trek.</h2>
+         <p>Why fictional futures limit our ability to innovate — and how to find better inspiration for tomorrow’s technology.</p>
+      </a>
+   </div>  
+   </div>
+
+</div>
+
+
+
+</main>
+
+
+
+<!-- footer 시작 선택자 사용 -->
+
+
+
+
+
+<footer class="home_footer bg_color_black white">
+
+    <div>
+        <div class="footer_content_left" >
+           <div>HUGE</div>
+           <p>Make something you love.</p>
+        </div>
+
+        <div class="footer_content_right" >
+            <div>
+               <a href="hello.html">Hello</a>
+               <a href="work.html">Work</a>
+               <a href="about.html">About</a>
+               <a href="careers.html">Careers</a>
+               <a href="contact.html" class="margin_right_none">Contact</a>
+            </div>
+            <p class="footer_aside">© 2020 Huge LLC. Legal.<br>
+                CCPA Privacy Notice<br>
+                Modern Slavery Act Statement 
+            </p>
+
+        </div>
+    </div>
+
+</footer>
+
+
+
+</body>
+
+</html>
