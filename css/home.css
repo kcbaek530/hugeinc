@@ -1,0 +1,92 @@
+
+/* home_hell0 클래스 */
+body { }
+
+main {width: 100%; transition: padding-top 0.5s; }
+
+.home_hello {width: 100%; height: 100vh;  position: relative; box-sizing: border-box; }
+
+.home_hello_wrap {width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+.home_hello_title_wrap { width: 100%; height: 300px;  padding: 28px 0 0 20px;   }
+.home_hello_title_h1 {width: 800px; font-size: 290px; line-height: 290px; text-align: center; margin: auto;     } 
+.home_hello_title_h1_m {display: none;}
+
+.home_hello_next_wrap {width: 100%; height: 90px; position:absolute; bottom: 0px; left:0px; }
+.home_hello_next_p { height: 40px; margin:auto; width: 200px; text-align: center;  }
+.home_hello_next_line {height: 50px; margin:auto; width: 1px; border-left: 1px solid black;}
+
+/* home_01 클래스 */
+ 
+.home_01 {width: 100%; height: 100vh;  display: block; background-image: url(../img/hugeinc.png); display: flex; background-size: cover; background-position: center; }
+
+.home_section_index_wrap { width: 12.5%; box-sizing: border-box; padding-top:20vh; padding-bottom:20vh; display: flex; justify-content:flex-end;  }
+.index_num { height: 36px; width: 40px; text-align:left; }
+.index_line { width:6vw; height: 14px;
+}
+
+.index_num_m { height: 36px; width: 40px; text-align:left; display: none;  }
+.index_line_m { width:6vw; height: 14px; display: none; }
+
+.index_line_white {border-bottom:1px solid white;}
+.index_line_black {border-bottom:1px solid black;}
+
+.home_section_contents_wrap { width: 75vw; box-sizing: border-box; padding-left: 15px; padding-top: 20vh; padding-bottom:20vh;  }
+
+
+.home_section_contents_detail_wrap { width: 45%; display: block; height:60vh;    }
+
+.home_section_contents_detail { width: 100%; height:95%; display: flex; flex-direction: column; justify-content: center;     }
+.home_section_contents_detail > h2 { margin-bottom: 34px;    }
+.home_section_contents_detail > hr { height:1px; width:90px; color: white; margin-bottom: 40px;  }
+.home_section_contents_detail > p { height:40px; width:90%;  font-weight: 100; line-height: 32px; text-rendering: optimizeLegibility; }
+
+
+.home_02 {width: 100%; height: 100vh;  background-image: url(../img/Hugeinc_Period.png); display: flex; background-size: cover; background-position: center; }
+.home_03 {width: 100%; height: 100vh;  background-image: url(../img/hugeinc10.png); display: flex; background-size: cover; background-position: center;}
+.home_04 {width: 100%; height: 100vh;  background-image: url(../img/hugeinc12.png); display: flex; background-size: cover; background-position: center;}
+.home_05 {width: 100%; height: 100vh;  background-image: url(../img/hugeinc2.jpg); display: flex; background-size: cover; background-position: center;}
+.home_06 {width: 100%; height: 100vh; background-image: url(../img/hugeinc3.jpg); display: flex; background-size: cover; background-position: center; }
+.home_07 {width: 100%; height: 100vh; background-image: url(../img/hugeinc1.jpg); display: flex; background-size: cover; background-position: center;}
+
+@media screen and (max-width:999px) and (min-width:768px)
+
+{    
+   .home_hello_title_wrap { width: 100%; height: 300px;  padding: 28px 0 0 0px;   }
+
+ } 
+
+@media screen and (max-width:767px)
+
+{ 
+
+.home_hello {height: 100vh;}
+.home_hello_title_h1 { display: none; } 
+.home_hello_title_h1_m {width:320px; display: block; font-size: 290px; text-align: center; margin: auto; line-height: 290px;  }
+
+.home_section_index_wrap {display: none;}
+.home_section_detail_wrap {display: none;}
+.home_section_contents_wrap {width: 87.34177%; margin: 0 auto; }
+.home_section_contents_detail_wrap { width: 90%; }
+.home_section_contents_detail { justify-content: flex-start; }
+
+.home_01 {  background-image: url(../img/hugeinc11_m.png); }
+.home_02 {  background-image: url(../img/hugeinc2_m.png); }
+.home_03 {  background-image: url(../img/hugeinc33_m.png); }
+.home_04 {  background-image: url(../img/hugeinc4_m.png); }
+.home_05 {  background-image: url(../img/hugeinc55_m.png); }
+.home_06 {  background-image: url(../img/hugeinc6_m.jpg); }
+.home_07 {  background-image: url(../img/hugeinc7_m.jpg); }
+
+
+.index_num {display: none; }
+.index_line {display: none; }
+.index_num_m {display: block; width: 24px; float: left;}
+.index_line_m {display: block; float: left; width:6vw; margin-right: 8px;}
+
+.home_section_contents_detail > h2 { margin-bottom: 0px; text-align: left;   }
+.home_section_contents_detail > hr { margin-bottom: 12px;  }
+
+
+}
+
+

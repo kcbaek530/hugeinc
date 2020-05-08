@@ -1,0 +1,30 @@
+
+
+/* contact.css 요소 */
+
+/* contact_hero */
+
+.hero_contact { background-image: url(../img/contact/RoyalPalms-16__2__crop__1___1___2_.jpg); }
+
+.hero_title { width:74.68354%; height: calc(80vh - 200px);  display: flex; flex-direction: column; justify-content: flex-end;
+margin: 0 auto; }
+
+/* hello */
+
+.hello { width: 100vw; background-color:black; padding: 140px 0; box-sizing: border-box;}
+
+.hello_container { width: 74.68354%; margin: 0 auto; display: flex;  }
+
+.section_subtitle { width: 32.20339%; padding-top: 14px;}
+
+.section_subtitle_rule_black {width: 47.36842%;  margin-bottom: 20px; border-top: 1px solid black;}
+.section_subtitle_rule_white {width: 47.36842%;  margin-bottom: 20px; border-top: 1px solid white;}
+
+.hello_content { width:66.10169% ; margin-left: 1.69492% ; }
+.hello_title {margin-bottom: 70px;}
+.hello_text {padding-bottom: 25px;}
+
+
+.hello_content ul { width:100%; display: flex; justify-content: flex-start; flex-wrap: wrap;} 
+.hello_content li {width:48.71795%; margin-top: 100px; }
+.hello_content p:first-child { margin-bottom: 40px;}
